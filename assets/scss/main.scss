@@ -1,0 +1,63 @@
+html,
+body {
+  font-size: 100%;
+  overflow-x: hidden;
+  font-family: acumin-pro, sans-serif;
+  background-color: $light-pink-background-color;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  // outline: 1px solid $purple-color;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+// .fade-enter-active,
+// .fade-leave-active {
+//   transition: opacity 0.5s;
+// }
+// .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+//   opacity: 0;
+// }
+
+.fade-enter-active,
+.fade-leave-active,
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 120rem;
+
+  //   @include breakpoint-up(xxxlarge) {
+  //     max-width: 120rem;
+  //   }
+}

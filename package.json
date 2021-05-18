@@ -1,0 +1,22 @@
+{
+  "name": "pwb-website-2020",
+  "version": "1.0.0",
+  "description": "new play without boundaries website 2020",
+  "author": "Aleksandar Trpkovski",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^9.0.3"
+  }
+}
