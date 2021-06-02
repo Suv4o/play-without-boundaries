@@ -4,7 +4,7 @@ Website: <a href="https://modest-williams-eb9baa.netlify.app/">https://modest-wi
 </p>
 
 <p align="center">
-<img src="https://res.cloudinary.com/suv4o/image/upload/v1621774318/github/pwb2_cadj0x.gif" />
+<img src="https://res.cloudinary.com/suv4o/image/upload/c_scale,q_5,w_400/v1621774318/github/pwb2_cadj0x.gif" />
 </p>
 
 <p align="center">
